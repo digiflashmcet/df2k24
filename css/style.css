@@ -4,6 +4,9 @@
     --light: #F1F8FF;
     --dark: #0F172B;
 }
+body{
+    text-align: justify;
+}
 
 .fw-medium {
     font-weight: 500 !important;
@@ -74,7 +77,6 @@
     font-weight: normal;
     border-radius: 2px;
 }
-
 
 /*** Navbar ***/
 .navbar-dark .navbar-nav .nav-link {
@@ -171,7 +173,6 @@
     margin-top: -1px;
     background: var(--primary);
 }
-
 .section-title::after {
     position: absolute;
     content: "";
@@ -182,14 +183,13 @@
     margin-top: -1px;
     background: var(--primary);
 }
-
 .section-title.text-start::before,
 .section-title.text-end::after {
     display: none;
 }
 
+/* Whatsapp and call */ 
 
-/* Whatsapp and call */
 
 .quick-container {
     padding: 0;
@@ -347,13 +347,17 @@ ul {
 
 
 
+.card{
+    background-color: #FFFFFF;
+}
 
 header {
     padding: 20px;
     text-align: center;
     position: relative;
     height: 75px;
-    background-color: #fff;
+    background-color: 
+    #ffffff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   }
   
@@ -400,7 +404,7 @@ header {
     
   }
   .footer {
-    background-color: #fff;
+    background-color: #ffffff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     margin-top: 20px; /* Add some space between the container and footer */
     text-align: justify;
